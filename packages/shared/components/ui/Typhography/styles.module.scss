@@ -1,0 +1,60 @@
+@mixin typographyStyle($font-size, $line-height, $font-family) {
+  width: max-content;
+
+  font-size: $font-size;
+  line-height: $line-height;
+
+  font-family: $font-family, sans-serif;
+}
+
+.heading {
+  @include typographyStyle(37px, 55px, 'Pretendard-Bold');
+}
+
+.display {
+  @include typographyStyle(28px, 42px, 'Pretendard-Bold');
+}
+
+.largeTitle {
+  @include typographyStyle(24px, 36px, 'Pretendard-Bold');
+}
+
+.title {
+  @include typographyStyle(20px, 30px, 'Pretendard-SemiBold');
+}
+
+.titleEmphasized {
+  @include typographyStyle(20px, 30px, 'Pretendard-Bold');
+}
+
+.headline {
+  @include typographyStyle(18px, 27px, 'Pretendard-Medium');
+}
+
+.headlineEmphasized {
+  @include typographyStyle(18px, 27px, 'Pretendard-SemiBold');
+}
+
+.label {
+  @include typographyStyle(16px, 24px, 'Pretendard-Medium');
+}
+
+.labelEmphasized {
+  @include typographyStyle(16px, 24px, 'Pretendard-SemiBold');
+}
+
+.body {
+  @include typographyStyle(14px, 21px, 'Pretendard-Medium');
+}
+
+.bodyEmphasized {
+  @include typographyStyle(14px, 21px, 'Pretendard-SemiBold');
+}
+
+.caption {
+  @include typographyStyle(12px, 18px, 'Pretendard-Regular');
+}
+
+.captionEmphasized {
+  @include typographyStyle(12px, 18px, 'Pretendard-SemiBold');
+}

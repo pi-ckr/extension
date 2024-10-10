@@ -1,0 +1,49 @@
+.container {
+  width: 320px;
+  height: 320px;
+
+  background-color: var(--color-background-primary);
+
+  padding-top: 54px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 34px;
+
+  .titleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 14px;
+
+    .typographyContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  .loginContainer {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 14px;
+
+    .loginButton {
+      svg {
+        transition: transform 0.2s ease-in-out;
+      }
+
+      &:hover {
+        svg {
+          transform: translateX(4px);
+        }
+      }
+    }
+  }
+}

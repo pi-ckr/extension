@@ -1,0 +1,24 @@
+{
+	"name": "pickr",
+	"packageManager": "yarn@4.5.0",
+	"private": true,
+	"version": "0.0.0",
+	"workspaces": [
+		"packages/*"
+	],
+	"scripts": {
+		"extension": "yarn workspace extension",
+		"shared": "yarn workspace @pickr/shared",
+		"web": "yarn workspace web"
+	},
+	"dependencies": {
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
+		"sass": "^1.79.4"
+	},
+	"devDependencies": {
+		"@types/react": "^18.3.11",
+		"@types/react-dom": "^18.3.0",
+		"typescript": "^5.6.3"
+	}
+}
