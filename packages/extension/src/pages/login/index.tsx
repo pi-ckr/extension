@@ -1,6 +1,6 @@
 import styles from './styles.module.scss';
-import ArrowForwardIcon from '../../assets/arrow_forward.svg?react';
-import Logo from '../../assets/logo.svg?react';
+import ArrowForwardIcon from '@pickr/shared/assets/arrow_forward.svg?react';
+import Logo from '@pickr/shared/assets/logo.svg?react';
 import { ColorPalette } from '@pickr/shared/lib/constant/ColorPalette.ts';
 import { Button, SvgIcon, Typography } from '@pickr/shared/components/ui';
 

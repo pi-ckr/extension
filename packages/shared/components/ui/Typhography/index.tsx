@@ -1,6 +1,5 @@
 import { BaseProps, TypographyVariant } from './types.ts';
 import { BaseTypography } from './base.tsx';
-import React from 'react';
 
 type BaseEmphasizedProps = BaseProps & {
 	emphasized?: boolean

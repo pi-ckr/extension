@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import { ReactNode } from 'react';
 import styles from './styles.module.scss';
 
 type Padding = [ number ] | [ number, number ] | [ number, number, number, number ];

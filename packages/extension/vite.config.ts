@@ -17,7 +17,8 @@ export default defineConfig({
 	},
 	resolve: {
 		alias: {
-			'@': path.resolve(__dirname, 'src'), // 경로 별칭 설정 (선택 사항)
+			'~': path.resolve(__dirname, './src'),
+			'@pickr/shared': path.resolve(__dirname, '../shared'),
 		},
 	},
 });

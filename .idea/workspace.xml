@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e736315d-9fe0-4b14-9b7e-ccd89f2c8eb0" name="Changes" comment="" />
+    <list default="true" id="e736315d-9fe0-4b14-9b7e-ccd89f2c8eb0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pnp.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/.pnp.cjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/install-state.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.yarn/install-state.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/extension/eslint.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/extension/eslint.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/extension/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/extension/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/extension/src/pages/login/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/extension/src/pages/login/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/extension/src/pages/main/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/extension/src/pages/main/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/extension/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/extension/tsconfig.app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/extension/tsconfig.app.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/packages/extension/tsconfig.app.tsbuildinfo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/extension/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/extension/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/shared/assets/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/packages/shared/typing.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/shared/components/ThemeProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/shared/components/ThemeProvider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/shared/components/ui/Button/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/shared/components/ui/Button/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/shared/components/ui/Typhography/base.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/shared/components/ui/Typhography/base.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/shared/components/ui/Typhography/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/shared/components/ui/Typhography/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/shared/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/shared/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/shared/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/shared/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,23 +58,25 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/jwkwon0817/Dev/Projects/pickr-monorepo/packages/shared&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;/Users/jwkwon0817/Dev/Projects/pickr/.yarn/releases/yarn-4.5.0.cjs&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.nodejs&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;yarn:package.json:typescript&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/jwkwon0817/Dev/Projects/pickr-monorepo/packages/shared",
+    "list.type.of.created.stylesheet": "SCSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "/Users/jwkwon0817/Dev/Projects/pickr/.yarn/releases/yarn-4.5.0.cjs",
+    "settings.editor.selected.configurable": "settings.nodejs",
+    "ts.external.directory.path": "yarn:package.json:typescript",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -110,6 +131,8 @@
       <workItem from="1728497696905" duration="7672000" />
       <workItem from="1728518721943" duration="1908000" />
       <workItem from="1728520652905" duration="4022000" />
+      <workItem from="1728544802183" duration="5471000" />
+      <workItem from="1728730421171" duration="2146000" />
     </task>
     <servers />
   </component>

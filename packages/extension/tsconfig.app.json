@@ -7,6 +7,12 @@
 			"DOM",
 			"DOM.Iterable"
 		],
+		"types": [
+			"node",
+			"chrome",
+			"vite/client",
+			"vite-plugin-svgr/client"
+		],
 		"paths": {
 			"@pickr/shared/*": [
 				"../shared/*"

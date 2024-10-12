@@ -20,7 +20,9 @@
 		"composite": true
 	},
 	"include": [
-		"/*.ts",
-		"/*.tsx"
+		"**/*.ts",
+		"**/*.tsx",
+		"**/**/*.ts",
+		"**/**/*.tsx"
 	]
 }

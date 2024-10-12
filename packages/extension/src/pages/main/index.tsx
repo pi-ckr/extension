@@ -1,5 +1,5 @@
 import styles from './styles.module.scss';
-import Logo from '../../assets/logo.svg?react';
+import Logo from '@pickr/shared/assets/logo.svg';
 import { SvgIcon, Typography } from '@pickr/shared/components/ui';
 import { useEffect, useState } from 'react';
 import { useChromeStorageLocal } from 'use-chrome-storage';
