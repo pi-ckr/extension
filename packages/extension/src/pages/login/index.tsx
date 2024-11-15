@@ -6,7 +6,7 @@ import { Button, SvgIcon, Typography } from '@pickr/shared/components/ui';
 
 export default function Login() {
 	const handleLogin = async () => {
-		await chrome.windows.create({ url: `${ import.meta.env.VITE_BASE_URL }/login`, type: 'popup' });
+		await chrome.windows.create({ url: `${ import.meta.env.VITE_BASE_URL }`, type: 'popup' });
 	};
 
 	return (
