@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e736315d-9fe0-4b14-9b7e-ccd89f2c8eb0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.pnp.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/.pnp.cjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.yarn/install-state.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.yarn/install-state.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/extension/.env" beforeDir="false" afterPath="$PROJECT_DIR$/packages/extension/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/extension/public/background.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/extension/public/background.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/extension/src/pages/login/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/extension/src/pages/login/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/extension/src/pages/main/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/extension/src/pages/main/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/.eslintrc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +62,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/jwkwon0817/Dev/Projects/pickr/packages/extension/public",
+    "last_opened_file_path": "/Users/jwkwon0817/Dev/Projects/pickr/packages/web/src/app",
     "list.type.of.created.stylesheet": "SCSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
@@ -91,6 +88,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/web/src/app" />
       <recent name="$PROJECT_DIR$/packages/extension/public" />
       <recent name="$PROJECT_DIR$/src/pages/web" />
       <recent name="$PROJECT_DIR$/src/assets/fonts" />
@@ -133,7 +131,7 @@
       <workItem from="1728522533490" duration="878000" />
       <workItem from="1728543788812" duration="6754000" />
       <workItem from="1728732580930" duration="1724000" />
-      <workItem from="1731667714039" duration="4186000" />
+      <workItem from="1731667714039" duration="4771000" />
     </task>
     <servers />
   </component>
