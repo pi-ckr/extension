@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e736315d-9fe0-4b14-9b7e-ccd89f2c8eb0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.pnp.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/.pnp.cjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/install-state.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.yarn/install-state.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/web/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/.eslintrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/extension/.env" beforeDir="false" afterPath="$PROJECT_DIR$/packages/extension/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/extension/public/content.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/extension/public/content.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,18 +34,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "jwkwon0817"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jwkwon0817&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:pi-ckr/extension",
-    "accountId": "8a4fa7b7-995d-44cd-be7a-88350161e374"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:pi-ckr/extension&quot;,
+    &quot;accountId&quot;: &quot;8a4fa7b7-995d-44cd-be7a-88350161e374&quot;
   }
-}]]></component>
+}</component>
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
@@ -61,6 +59,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/jwkwon0817/Dev/Projects/pickr/packages/web/src/app",
     "list.type.of.created.stylesheet": "SCSS",
@@ -73,7 +72,7 @@
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "/Users/jwkwon0817/Dev/Projects/pickr/.yarn/releases/yarn-4.5.0.cjs",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font",
-    "ts.external.directory.path": "yarn:packages/web/package.json:typescript",
+    "ts.external.directory.path": "yarn:packages/shared/package.json:typescript",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -104,7 +103,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-WS-242.21829.149" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-WS-243.21565.180" />
       </set>
     </attachedChunks>
   </component>
@@ -131,7 +130,9 @@
       <workItem from="1728522533490" duration="878000" />
       <workItem from="1728543788812" duration="6754000" />
       <workItem from="1728732580930" duration="1724000" />
-      <workItem from="1731667714039" duration="4771000" />
+      <workItem from="1731667714039" duration="12429000" />
+      <workItem from="1731771090946" duration="11010000" />
+      <workItem from="1732197545265" duration="817000" />
     </task>
     <servers />
   </component>

@@ -172,35 +172,72 @@ window.onload = () => {
 		wordCard.className = 'word-card';
 		wordCard.style.position = 'fixed';
 		wordCard.style.zIndex = '2147483647';
-		wordCard.style.width = '300px';
+		wordCard.style.width = '400px'; // 너비 증가
 		wordCard.style.backgroundColor = 'white';
-		wordCard.style.border = '1px solid #ddd';
-		wordCard.style.borderRadius = '8px';
-		wordCard.style.left = `${ position.x + 30 }px`;
-		wordCard.style.top = `${ position.y }px`;
+		wordCard.style.border = 'none'; // 테두리 제거
+		wordCard.style.borderRadius = '16px'; // 모서리 더 둥글게
+		// 중앙 정렬을 위한 위치 계산
+		wordCard.style.left = '50%';
+		wordCard.style.top = '50%';
+		wordCard.style.transform = 'translate(-50%, -50%)';
+		wordCard.style.boxShadow = '0 4px 24px rgba(0, 0, 0, 0.1)'; // 그림자 추가
 
 		const header = document.createElement('div');
 		header.className = 'word-card-header';
+		header.style.borderBottom = '1px solid #F0F0F0';
+		header.style.padding = '16px';
+
+		const title = document.createElement('h2');
+		title.style.fontSize = '20px';
+		title.style.fontWeight = 'bold';
+		title.textContent = selectedText;
 
 		const closeButton = document.createElement('button');
 		closeButton.className = 'close-button';
 		closeButton.innerHTML = '×';
 		closeButton.onclick = () => wordCard.remove();
+		closeButton.style.fontSize = '24px';
+		closeButton.style.color = '#999';
 
 		const selectedTextElement = document.createElement('div');
 		selectedTextElement.className = 'selected-text';
-		selectedTextElement.textContent = selectedText;
+		selectedTextElement.style.padding = '24px';
+		selectedTextElement.style.fontSize = '16px';
+		selectedTextElement.style.color = '#666';
 
 		const definitionsContainer = document.createElement('div');
 		definitionsContainer.className = 'definitions';
+		definitionsContainer.style.padding = '0 24px';
+		definitionsContainer.style.display = 'flex';
+		definitionsContainer.style.alignItems = 'center';
+		definitionsContainer.style.gap = '6px';
 		definitionsContainer.innerHTML = '<div class="loading">Loading definitions...</div>';
 
 		const footer = document.createElement('div');
 		footer.className = 'word-card-footer';
+		footer.style.padding = '16px 24px';
+		footer.style.display = 'flex';
+		footer.style.justifyContent = 'flex-end';
 
 		const pickButton = document.createElement('button');
 		pickButton.className = 'pick-button';
 		pickButton.textContent = '픽하기';
+		pickButton.style.backgroundColor = '#4E78F6';
+		pickButton.style.color = 'white';
+		pickButton.style.padding = '8px 24px';
+		pickButton.style.borderRadius = '8px';
+		pickButton.style.border = 'none';
+		pickButton.style.fontSize = '16px';
+		pickButton.style.fontWeight = '500';
+		pickButton.style.cursor = 'pointer';
+
+		pickButton.onmouseover = () => {
+			pickButton.style.backgroundColor = '#3D66E5';
+		};
+		pickButton.onmouseout = () => {
+			pickButton.style.backgroundColor = '#4E78F6';
+		};
+
 		pickButton.onclick = async () => {
 			try {
 				// chrome.storage.local에서 accessToken 가져오기
@@ -262,12 +299,12 @@ window.onload = () => {
 			}
 		};
 
-		footer.appendChild(pickButton);
-
+		header.appendChild(title);
 		header.appendChild(closeButton);
 		wordCard.appendChild(header);
 		wordCard.appendChild(selectedTextElement);
 		wordCard.appendChild(definitionsContainer);
+		footer.appendChild(pickButton);
 		wordCard.appendChild(footer);
 
 		// Fetch and display definitions with staggered animation
